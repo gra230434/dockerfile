@@ -5,8 +5,6 @@
 version 0.1
 > ssh ubuntu完成
 > > 可以利用新創的使用者遠端進入Docker
-> > 在build新的image時候把參數利用 --build-arg 把username以及userpassword導入即可<br>
-> > 預設的username為user, userpassword為000000
 
 <h2>預定</h2>
 
