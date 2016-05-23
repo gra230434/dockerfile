@@ -6,12 +6,7 @@ From ubuntu:16.04
 
 MAINTAINER Kevin wei <gra230434@gmail.com>
 
-ARG username
-ARG userpassword
-ENV USER ${username:-user}
-ENV USERPW ${userpassword:-000000}
-
-RUN apt-get update && apt-get install -y openssh-server
+RUN apt-get update && apt-get install -y apache2
 RUN mkdir /var/run/sshd
 
 # add a new user
